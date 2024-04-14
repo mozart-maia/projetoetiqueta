@@ -24,11 +24,12 @@ export default function Etiqueta() {
           {/* primeira seção */}
           <div className="grid grid-cols-2  h-8 bg-slate-200">
             <h1 className="text-center border border-black">
-              Origem do produto / Cargo origem:
+              <span className="font-bold">Origem do produto</span> / Cargo
+              origem:
             </h1>
 
             <h1 className="text-center border border-black">
-              Terminal / Base:
+              <span className="font-bold">Terminal </span> / Base:
             </h1>
           </div>
           <div className=" grid grid-cols-2 mt-1 h-8 bg-slate-50">
@@ -37,17 +38,22 @@ export default function Etiqueta() {
             </h1>
 
             <h1 className="text-center border border-black text-blue-700 font-bold">
-              Terminal / Base:
+              TA / GUAMARÉ
             </h1>
           </div>
 
           {/* segunda seção */}
           <div className="grid grid-cols-3 mt-1  h-8 bg-slate-200">
-            <h1 className="text-center border border-black">Data / Date:</h1>
-
-            <h1 className="text-center border border-black">Hora / Time:</h1>
             <h1 className="text-center border border-black">
-              Produto / Cargo:
+              {" "}
+              <span className="font-bold">Data </span> / Date:
+            </h1>
+
+            <h1 className="text-center border border-black">
+              <span className="font-bold">Hora</span> / Time:
+            </h1>
+            <h1 className="text-center border border-black">
+              <span className="font-bold"> Produto </span>/ Cargo:
             </h1>
           </div>
           <div className=" grid grid-cols-3 mt-1 h-8 bg-slate-50">
@@ -65,11 +71,12 @@ export default function Etiqueta() {
           {/* terceira seção   */}
           <div className="grid grid-cols-2 mt-1 h-8 bg-slate-200">
             <h1 className="text-center border border-black">
-              Tipo de amostra / Sample type:
+              <span className="font-bold"> Tipo de amostra </span> / Sample
+              type:
             </h1>
 
             <h1 className="text-center border border-black">
-              Item de movim. / Item:
+              <span className="font-bold"> Item de movim. </span> / Item:
             </h1>
           </div>
           <div className=" grid grid-cols-2 mt-1 h-8 bg-slate-50">
@@ -84,10 +91,14 @@ export default function Etiqueta() {
           {/* quarta seção  */}
           <div className="grid grid-cols-2 mt-1 h-8 bg-slate-200">
             <h1 className="text-center border border-black">
-              Ponto de amostragem / Cargo tank:
+              <span className="font-bold"> Ponto de amostragem </span> / Cargo
+              tank:
             </h1>
 
-            <h1 className="text-center border border-black">Lacre / Seal:</h1>
+            <h1 className="text-center border border-black">
+              {" "}
+              <span className="font-bold">Lacre </span> / Seal:
+            </h1>
           </div>
           <div className=" grid grid-cols-2 mt-1 h-8 bg-slate-50">
             <h1 className="text-center border border-black text-blue-700 font-bold">
@@ -100,7 +111,11 @@ export default function Etiqueta() {
           </div>
           {/* quinta seção  */}
           <div className="mt-1 h-7 border border-black bg-slate-200">
-            <h1 className="text-center ">Finalidade da amostra / Reason:</h1>
+            <h1 className="text-center ">
+              {" "}
+              <span className="font-bold"> Finalidade da amostra </span> /
+              Reason:
+            </h1>
           </div>
           <div className="mt-1 h-10 border border-black bg-slate-50">
             <h1 className="text-center text-lg  text-blue-700 font-bold">
@@ -110,7 +125,8 @@ export default function Etiqueta() {
           {/* sexta seção  */}
           <div className="mt-1 h-7 border border-black bg-slate-200">
             <h1 className="text-center ">
-              Responsável pela amostragem / Sample responsible:
+              <span className="font-bold"> Responsável pela amostragem </span> /
+              Sample responsible:
             </h1>
           </div>
           <div className="mt-1 h-10 border border-black bg-slate-50">
@@ -120,7 +136,10 @@ export default function Etiqueta() {
           </div>
           {/* setima seção */}
           <div className="mt-1 h-7 border border-black bg-slate-200">
-            <h1 className="text-center ">Observação / Remarks:</h1>
+            <h1 className="text-center ">
+              {" "}
+              <span className="font-bold"> Observação</span> / Remarks:
+            </h1>
           </div>
           <div className="mt-1 h-10 border border-black bg-slate-50">
             <h1 className="text-center text-lg  text-blue-700 font-bold">
@@ -129,14 +148,17 @@ export default function Etiqueta() {
           </div>
           {/* oitava seção  */}
           <div className="mt-1 h-7 border border-black bg-slate-200">
-            <h1 className="text-center ">Assinaturas / Signatures:</h1>
+            <h1 className="text-center ">
+              {" "}
+              <span className="font-bold">Assinaturas </span> / Signatures:
+            </h1>
           </div>
           <div className="grid grid-cols-2 h-7  bg-slate-200">
             <h1 className="text-center border border-black bg-slate-200">
-              Terminal / Terminal:
+              <span className="font-bold"> Terminal </span> / Terminal:
             </h1>
             <h1 className="text-center border border-black bg-slate-200">
-              Navio/Outros/Tanker/others:
+              <span className="font-bold">Navio/Outros</span>/Tanker/others:
             </h1>
           </div>
           <div className="grid grid-cols-2 h-7">
